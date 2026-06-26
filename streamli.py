@@ -1,6 +1,6 @@
 import streamlit as st
 st.title("My Streamlit App")
-"""
+
 st.header("This is a header")
 st.subheader("This is a subheader")
 st.text("This is some text")
@@ -15,7 +15,7 @@ if ut:
     st.write("Checkbox is checked")
 mt=st.radio("Select an option", ["Option 1", "Option 2", "Option 3"])
 st.write(f"You selected: {mt}")
-"""
+
 col1, col2 = st.columns(2)
 with col1:
     st.header("Column 1")
